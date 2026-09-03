@@ -36,6 +36,7 @@ class content{
         float getScore() const{
             return score;
         }
+        //这里有一堆get，不是因为我的习惯好，而是因为我忘了在类里直接访问私有变量的权限，导致我写了一个又一个get函数
         void scoreRenew(float temp){
             score =temp;
             cout << "内容流量得分已刷新"<<endl;
